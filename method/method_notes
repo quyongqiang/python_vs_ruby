@@ -1,0 +1,13 @@
+# method in python 
+def hello():
+  pass
+  
+  
+# method in ruby 
+def hello
+
+end
+
+def hello()
+
+end

@@ -1,6 +1,12 @@
 class HelloWorld
   attr_accessor :name
 
+  def initialize()
+    name = "init"
+    @name = "init1"
+  end
+
+
   def greet
     puts "Hi, I am #{self.name}"
     puts "Hi, I am #{name}"
@@ -12,6 +18,7 @@ end
 
 # test 1
 h1 = HelloWorld.new
+h1.greet
 h1.name="lily"
 h1.greet
 
@@ -25,6 +32,7 @@ class HelloWorld
     self.name = "self_lucy"
 	name = "ruby"
   end
+
 end
 
 # test2
@@ -36,3 +44,4 @@ h1.greet
 puts ""
 h1.test_name
 h1.greet
+puts h1.name

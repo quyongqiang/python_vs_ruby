@@ -1,0 +1,19 @@
+# self in python
+self代表实例对象本身。
+__init__方法以及实例方法中都必须写上或带上self，在第一个参数位置上。
+如果不写self则报错，类似如下：
+TypeError: __init__() takes exactly 1 argument (2 given)
+
+
+＃ self in ruby
+self代表方法的接收者,self不能写在方法参数中，否则报错。
+
+name, @name, self.name 在ruby 中的区别是什么？
+
+@name和self.name等价的，作用相同，都是指实例变量name.
+name只是普通的局部变量，如果name没有额外赋值，
+输出name则代表输出@name或self.name，
+但给name赋值并不能给实例变量赋值，而是给局部变量name赋值了。
+
+
+

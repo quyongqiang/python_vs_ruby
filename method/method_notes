@@ -1,9 +1,14 @@
 # method in python 
+强制缩进，必须带括号，加冒号，空函数加一句pass
+
 def hello():
   pass
   
   
 # method in ruby 
+
+无参数时括号可带可不带
+
 def hello
 
 end

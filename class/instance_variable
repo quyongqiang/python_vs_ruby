@@ -1,0 +1,17 @@
+ruby类中的实例变量，@开头的，必须明确在initialize中赋值，在方法外部赋值不起作用，也不会报错。
+
+ruby中的以下几种的赋值和调用方法严格区分
+   类常量 Version
+     赋值：Version = "2.0"
+     调用：Class::Version
+   类变量  @@name
+     赋值：@@name
+     调用：需要实现get 方法
+   实例变量 @name
+     赋值：必须明确在initialize中赋值?
+     调用：需要实现get 方法
+      
+
+python中 类变量 类常量 实例变量 赋值和调用 并不能严格区分
+
+

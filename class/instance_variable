@@ -16,6 +16,7 @@ class Point
 
 
   def get_y
+    ＃ y is local var, if not give y a value, y's value is @y
     y
   end
   
